@@ -20,19 +20,19 @@ public class Convidado {
     return codigoConvite;
   }
 
-  @Override
+
   public boolean equals(Object o) {
     if (this == o) return true;
     if (!(o instanceof Convidado convidado)) return false;
     return getCodigoConvite() == convidado.getCodigoConvite();
   }
 
-  @Override
+
   public int hashCode() {
     return Objects.hash(getCodigoConvite());
   }
 
-  @Override
+
   public String toString() {
     return "Convidado{" +
         "nome='" + nome + '\'' +

@@ -26,7 +26,6 @@ public class Tarefa {
     this.concluida = concluida;
   }
 
-  @Override
   public String toString() {
     return "Tarefa{" +
         "descricao='" + descricao + '\'' +

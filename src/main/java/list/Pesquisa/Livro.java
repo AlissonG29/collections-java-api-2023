@@ -28,7 +28,7 @@ public class Livro {
     return anoPublicacao;
   }
 
-  @Override
+
   public String toString() {
     return "Livro{" +
         "titulo='" + titulo + '\'' +

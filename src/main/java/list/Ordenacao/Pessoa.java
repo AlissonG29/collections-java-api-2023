@@ -14,7 +14,7 @@ public class Pessoa implements Comparable<Pessoa> {
     this.altura = altura;
   }
 
-  @Override
+
   public int compareTo(Pessoa p) {
     return Integer.compare(idade, p.getIdade());
   }
@@ -31,7 +31,7 @@ public class Pessoa implements Comparable<Pessoa> {
     return altura;
   }
 
-  @Override
+
   public String toString() {
     return "Pessoa{" +
         "nome='" + nome + '\'' +
@@ -42,7 +42,7 @@ public class Pessoa implements Comparable<Pessoa> {
 }
 
 class ComparatorPorAltura implements Comparator<Pessoa> {
-  @Override
+
   public int compare(Pessoa p1, Pessoa p2) {
     return Double.compare(p1.getAltura(), p2.getAltura());
   }

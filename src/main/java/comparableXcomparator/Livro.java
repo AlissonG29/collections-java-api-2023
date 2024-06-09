@@ -36,7 +36,7 @@ class Livro implements Comparable<Livro> {
 
 // Classe para comparar Livro por autor
 class CompararAutor implements Comparator<Livro> {
-	@Override
+
 	public int compare(Livro l1, Livro l2) {
 		return l1.getAutor().compareTo(l2.getAutor());
 	}
@@ -44,7 +44,7 @@ class CompararAutor implements Comparator<Livro> {
 
 // Classe para comparar Livro por ano
 class CompararAno implements Comparator<Livro> {
-	@Override
+
 	public int compare(Livro l1, Livro l2) {
 		return Integer.compare(l1.getAno(), l2.getAno());
 		/*
@@ -59,7 +59,7 @@ class CompararAno implements Comparator<Livro> {
 }
 
 class CompararAnoAutorTitulo implements Comparator<Livro> {
-	@Override
+
 	public int compare(Livro l1, Livro l2) {
 		int ano = Integer.compare(l1.getAno(), l2.getAno());
 		if (ano != 0)
