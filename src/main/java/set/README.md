@@ -17,11 +17,6 @@
 
 > ##### *LinkedHashSet*: O LinkedHashSet é uma implementação da interface Set que mantém a ordem de inserção dos elementos, além de usar uma tabela hash para obter um bom desempenho de busca. Ele é semelhante ao HashSet, mas também mantém uma lista duplamente vinculada que preserva a ordem de inserção. Isso permite que os elementos sejam percorridos na ordem em que foram adicionados. O LinkedHashSet é útil quando você precisa manter a ordem de inserção dos elementos e também ter um bom desempenho de busca.
 
-### Referências:
-
-[1] "Collections in Java Tutorial." DigitalOcean Community. Disponível em: https://www.digitalocean.com/community/tutorials/collections-in-java-tutorial.
-
-[2] "Java™ Platform, Standard Edition 17 API Specification - Class Set." Oracle. Disponível em: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html.
 
 ## Fixando os Conhecimentos
 
@@ -110,8 +105,3 @@ Crie uma classe chamada "GerenciadorAlunos" que irá lidar com uma lista de alun
 - `exibirAlunosPorNota()`: Exibe todos os alunos do conjunto em ordem crescente de nota.
 - `exibirAlunos()`: Exibe todos os alunos do conjunto.
 </p>
-
----
-### Dúvidas e Suporte
-
-Caso você tenha alguma dúvida, problema ou sugestão, fique à vontade para abrir uma issue no repositório. Espero conseguir te ajudar! (:

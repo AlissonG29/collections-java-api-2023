@@ -17,11 +17,6 @@
 
 > ##### *HashMap* é uma implementação da interface Map que não mantém uma ordem específica dos elementos. Ele armazena os elementos internamente usando uma função de hash para melhorar a eficiência das operações de pesquisa e acesso. O HashMap também permite chaves ou valores nulos.
 
-### Referências:
-
-[1] "Collections in Java Tutorial." DigitalOcean Community. Disponível em: https://www.digitalocean.com/community/tutorials/collections-in-java-tutorial.
-
-[2] "Java™ Platform, Standard Edition 17 API Specification - Class Map." Oracle. Disponível em: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html.
 
 ## Fixando os Conhecimentos
 
@@ -109,9 +104,3 @@ Crie uma classe chamada "LivrariaOnline" que representa uma livraria online. Ess
 - `obterLivroMaisCaro()`: Retorna o livro mais caro disponível na livraria.
 - `exibirLivroMaisBarato()`: Retorna o livro mais barato disponível na livraria.
 </p>
-
----
-
-### Dúvidas e Suporte
-
-Caso você tenha alguma dúvida, problema ou sugestão, fique à vontade para abrir uma issue no repositório. Espero conseguir te ajudar! (:
